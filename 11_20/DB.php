@@ -11,7 +11,7 @@
     require_once 'ConnectDB.php';
 
     try{
-        $sql="insert into students values('5','ruby',22,'ict')";
+        $sql="insert into student values('5','ruby',22,'ict')";
         $result= mysqli_query($connect,$sql);
         if ($result) {
             echo "New student record created successfully";
