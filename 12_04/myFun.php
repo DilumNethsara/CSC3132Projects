@@ -39,7 +39,7 @@ catch(Exception $e){
 	die($e->getMessage());
 }
 }
- //GET DATA FROM DB
+
  function SearchName($name,$connect){
             try{
             

@@ -1,0 +1,18 @@
+CREATE DATABASE StudentDB;
+
+USE StudentDB;
+
+CREATE TABLE Student (
+    FullName VARCHAR(100) NOT NULL,
+    RegNo VARCHAR(20) NOT NULL PRIMARY KEY,
+    Age INT NOT NULL,
+    Course VARCHAR(10) NOT NULL
+);
+
+INSERT INTO Student (FullName, RegNo, Age, Course)
+VALUES 
+('Alice Johnson', '2020ASP001', 20, 'AMC'),
+('Bob Smith', '2020ASP002', 21, 'IT'),
+('Cathy Brown', '2020ASP003', 19, 'BIO'),
+('David Wilson', '2020ASP004', 22, 'IT'),
+('Emily Davis', '2020ASP005', 20, 'AMC');
